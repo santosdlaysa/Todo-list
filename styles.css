@@ -1,9 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,400&display=swap');
+
 /* Geral */
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: Verdana;
+    font-family: "popins", sans-serif;
     color: #333;
   }
   
@@ -51,7 +53,7 @@
   
   /* Todo Header */
   .todo-container {
-    max-width: 450px;
+    max-width: 550px;
     margin: 3rem auto 0;
     background-color: #fdfdfd;
     padding: 1.5rem;
@@ -64,6 +66,13 @@
     border-bottom: 1px solid #ccc;
   }
   
+  h1 {
+    font-weight: 0,500;
+  }
+  p {
+    font-weight: 400;
+    font-family: 'nunito', sans-serif;
+  }
   /* Todo Form */
   #todo-form,
   #edit-form {
